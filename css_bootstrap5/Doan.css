@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 8000px;
+    box-sizing: border-box;
+    background-color: rgb(16, 14, 14);
+}
+
+
+/* Header */
+
+header {
+    background-color: #0f0e0e;
+}
+
+.bt-btom {
+    border-bottom: 1px solid;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+
+.nav a {
+    display: inline-block;
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:not(:last-child)::after {
+    content: "+";
+    margin-left: 0px;
+    vertical-align: -0.4em;
+    color: rgb(57, 58, 58);
+}
+
+.icon-space {
+    margin: 0 10px;
+    display: inline-block;
+    width: 10px;
+}
+
+.fa-brands,
+.fa-solid,
+.fa-instagram {
+    color: #ffffff;
+    padding: 5px;
+}
+
+
+/* Header */
+
+
+/* Banner */
+
+.col-10 {
+    margin-left: 100px;
+}
+
+.col-10 p {
+    color: rgb(215, 148, 60);
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col-10 h1 {
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.col-10 h2 {
+    color: rgb(106, 105, 103);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.col-10 button {
+    display: block;
+    color: rgb(138, 109, 72);
+    border: #9f6816 solid 1px;
+    border-radius: 60px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.add-pt1 img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.cl-md-2 p {
+    display: block;
+    color: rgb(215, 148, 60);
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cl-md-2 h1 {
+    display: block;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.cl-md-2 h2 {
+    display: block;
+    font-size: 14px;
+    color: #a59887;
+}
+
+.add-pt1 {
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+.ft-1 {
+    display: block;
+    width: 30px;
+    height: 120px;
+    margin-top: 50px;
+    color: #ffffff;
+    border: #b7996b solid 1px;
+}
+
+.ft-1>.row {
+    color: #b08d58;
+}
+
+.add-pt2 h1 {
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.add-pt2 p {
+    display: block;
+    text-align: center;
+    color: #c1bcb5;
+}
+
+.add-pt3 img {
+    display: block;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.row>.add-pt2-2 {
+    display: block;
+    margin-bottom: 33px;
+}
+
+.add-pt2-2 h1 {
+    display: block;
+    display: block;
+    color: #cfb4b4;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* .txt {
+    text-align: center;
+}
+
+.txt p {
+    color: rgb(217 178 127);
+}
+
+.txt h4 {
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #d3cec7;
+} */
+
+.txt {
+    position: relative;
+    /* Định vị tương đối cho thẻ */
+    color: white;
+    /* Màu chữ trắng */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Tạo bóng đổ cho chữ */
+}
+
+.txt::after {
+    content: "";
+    /* Thêm nội dung rỗng cho pseudo-element */
+    position: absolute;
+    /* Định vị tuyệt đối cho pseudo-element */
+    top: 0;
+    /* Xác định vị trí cạnh trên */
+    left: 0;
+    /* Xác định vị trí cạnh trái */
+    width: 100%;
+    /* Chiều rộng bằng 100% */
+    height: 100%;
+    /* Chiều cao bằng 100% */
+    background-image: url("back-1.jpg");
+    /* Nền là ảnh đã chọn */
+    background-repeat: repeat;
+    /* Lặp lại ảnh */
+    background-size: cover;
+    /* Ảnh bao phủ toàn bộ */
+    opacity: 0.5;
+    /* Độ mờ 50% */
+    z-index: -1;
+    /* Đặt pseudo-element ra sau nội dung chữ */
+}
+
+.mt-6 {
+    display: inline-flex;
+    margin-top: 45% !important;
+    color: rgb(219, 202, 202);
+}
+
+.mt-6 span {
+    /* display: flex; */
+    color: rgb(217 178 127);
+}
+
+.pt-11 a {
+    color: #b27922;
+}
+
+.bg-col-1 {
+    color: #ffffff;
+}
+
+.btt-2 h4 {
+    border-bottom: 1px;
+}
+
+.bor-2 button {
+    color: #9f6816;
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: #9f6816;
+}
+
+.cll-1 p {
+    color: rgb(209 210 212);
+}
+
+.cll-1 h3 {
+    color: rgb(209 210 212);
+}
+
+.bor-3 button {
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: #9f6816;
+    color: #9f6816;
+}
+
+.bor-3>.col-10>h2 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.bor-3>.col-10>p {
+    font-size: 25px;
+    color: #cec8c8;
+}
+
+
+/*  */
+
+.text-1 p {
+    color: #977440;
+    font-size: 20px;
+}
+
+.text-1 h1 {
+    font-size: auto;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.text-1 h5 {
+    margin: 10px 0;
+    color: #a8a7a6;
+    font-size: 40px;
+}
+
+.text-2 p {
+    margin-top: 50px;
+    text-align: center;
+    color: #977440;
+    font-size: 20px;
+}
+
+.text-2 h1 {
+    color: #cec8c8;
+    text-align: center;
+}
+
+
+/* 
+
+*/
+
+.bor-4 img {
+    text-align: center;
+}
+
+
+/*  */
+
+.text-3 {
+    font-size: 20px;
+    color: rgb(126, 122, 122);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*  */
+
+footer a {
+    text-decoration: none;
+    color: #c0bcb5;
+    justify-self: end;
+    align-self: end;
+    padding: 5px;
+}
+
+footer {
+    position: relative;
+    color: #e7e0d8;
+    text-align: center;
+    background-color: #977440;
+    padding: 20px;
+    display: block;
+}
+
+
+/* go to up */
+
+.fa-arrow-up {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    width: 40px;
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    /* Đảm bảo nút "i" hiển thị trên cùng */
+}
+
+.fa-arrow-up:hover {
+    background-color: #981c1c;
+}
